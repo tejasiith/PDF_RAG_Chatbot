@@ -1,2 +1,36 @@
-# PDF_RAG_Chatbot
-Built a Retrieval-Augmented Generation (RAG) system using LangChain, FAISS embeddings, and OpenAI GPT-3.5 to enable question-answering over PDF documents, including large research papers and theses. Implemented document chunking, vector indexing, and a Streamlit-based chat interface for interactive querying.
+# PDF-RAG-Chatbot
+
+A **Retrieval-Augmented Generation (RAG) chatbot** built using LangChain and OpenAI, allowing you to **ask questions from PDF documents** like research papers, theses, or notes.
+
+---
+
+## Features
+
+- Chat with your PDF documents using AI.
+- Uses **FAISS vector embeddings** for fast retrieval.
+- Handles large PDFs by splitting them into chunks.
+- Returns answers only based on your documents ("I don't know" if not in context).
+- Built with **Streamlit** for an interactive UI.
+
+---
+
+## Tech Stack
+
+- Python 3.10+
+- [LangChain](https://www.langchain.com/)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- OpenAI GPT-3.5 / GPT-4
+- Streamlit for UI
+- PyPDFLoader for PDF parsing
+
+---
+PDF-RAG-Chatbot/
+│
+├── data/               # PDF documents
+├── faiss_index/        # FAISS embeddings (generated)
+├── venv/               # Virtual environment
+├── ingest.py           # PDF ingestion script
+├── rag_chain.py        # RAG pipeline
+├── app.py              # Streamlit UI
+├── requirements.txt    # Python dependencies
+└── README.md

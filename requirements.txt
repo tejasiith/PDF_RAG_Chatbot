@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+langchain-groq
+faiss-cpu
+chromadb
+pypdf
+python-dotenv
+streamlit
+tiktoken

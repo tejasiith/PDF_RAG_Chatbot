@@ -24,13 +24,3 @@ A **Retrieval-Augmented Generation (RAG) chatbot** built using LangChain and Ope
 - PyPDFLoader for PDF parsing
 
 ---
-PDF-RAG-Chatbot/
-│
-├── data/               # PDF documents
-├── faiss_index/        # FAISS embeddings (generated)
-├── venv/               # Virtual environment
-├── ingest.py           # PDF ingestion script
-├── rag_chain.py        # RAG pipeline
-├── app.py              # Streamlit UI
-├── requirements.txt    # Python dependencies
-└── README.md
